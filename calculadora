@@ -1,0 +1,52 @@
+//CALCULADORAS DE NÚMEROS INTEIROS
+fun main() {
+    var x = 25
+    var y = 5
+
+    val resultado = somar(x, y)
+
+    println("O resultado da soma é = $resultado")
+    //println("O resultado da subtração é = $resultado")
+    //println("O resultado da multiplicação é = $resultado")
+    //println("O resultado da divisão é = $resultado")
+}
+
+// Somar dois números Inteiros
+fun somar(x: Int, y:Int ) = x+y
+
+//Subtrair dois números Inteiros
+fun subtrair(x: Int, y:Int) = x-y
+
+//Multiplicar dois números Inteiros
+fun multiplicar(x: Int, y:Int ) = x*y
+
+//Dividir dois números Inteiros
+fun dividir(x: Int, y:Int) = x/y
+
+
+
+
+//CALCULADORA DE NÚMEROS DECIMAIS
+fun main() {
+    var x = 5.5F
+    var y = 10.0F
+
+    val resultado = soma(x, y)
+
+    println("O resultado da soma é = $resultado")
+    //println("O resultado da subtração é = $resultado")
+    //println("O resultado da multiplicação é = $resultado")
+    //println("O resultado da divisão é = $resultado")
+}
+
+// Somar dois números Decimais
+fun soma(x: Float, y:Float ) = x+y
+
+//Subtrair dois números Decimais
+fun subtrair(x: Float, y:Float ) = x-y
+
+//Multiplicar dois números Decimais
+fun multiplicar(x: Float, y:Float ) = x*y
+
+//Dividir dois números Decimais
+fun dividir(x: Float, y:Float ) = x/y
